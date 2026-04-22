@@ -1,0 +1,24 @@
+{
+  "name": "local-seo-copilot",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "db:push": "turbo run db:push",
+    "db:generate": "turbo run db:generate"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.3",
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
