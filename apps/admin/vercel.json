@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd ../.. && npm run build --filter=@repo/admin",
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "installCommand": "cd ../.. && npm install",
+  "regions": ["iad1"]
+}
